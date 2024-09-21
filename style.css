@@ -1,0 +1,65 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+
+    background: url(https://st3.depositphotos.com/18803028/35067/i/450/depositphotos_350679964-stock-photo-math-illustration-abstract-background-numbers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .container
+{
+  
+  padding: 18px;
+} */
+
+.calculator
+{
+    display: grid;
+    /* background-color: rgb(128, 153, 236); */
+    gap: 10px;
+    grid-template-columns: repeat(4,68px);
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(165, 247, 247);
+
+}
+input
+{
+    grid-column: span 4;
+    border-radius: 20px;
+    background: transparent;
+    color: gray;
+    font-size: 50px;
+    text-align: end;
+    padding: 10px;
+}
+button
+{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(48, 41, 141);
+    color: white;
+}
+button:hover
+{
+    background-color: lightsteelblue;
+    border: 1px blue;
+}
+.equal
+{
+    width: 125px;
+    border-radius: 30px;
+}
